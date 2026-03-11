@@ -3,7 +3,7 @@ pipeline {
 agent any
 
 environment {
-DOCKERHUB = "roopacb/Blinkit_webpage"
+DOCKERHUB = "roopacb/blinkit_webpage"
 }
 
 stages {
