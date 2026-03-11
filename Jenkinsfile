@@ -3,14 +3,14 @@ pipeline {
 agent any
 
 environment {
-DOCKERHUB = "roopacb/blinkit_webpage"
+DOCKERHUB = "roopacb/Blinkit_webpage"
 }
 
 stages {
 
 stage('Clone Repository') {
 steps {
-    git branch: 'main', url:'https://github.com/roopacb/blinkit_webpage.git'
+    git branch: 'main', url:'https://github.com/rooparajcb/Blinkit_webpage.git'
 }
 }
 stage("Docker Version") {
