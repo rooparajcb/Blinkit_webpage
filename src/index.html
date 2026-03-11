@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blinkit UI Simple</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+/* Header */
+.header{
+    background:#ffd700;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.search{
+    width:40%;
+}
+
+.search input{
+    width:100%;
+    padding:8px;
+    border-radius:5px;
+    border:none;
+}
+
+/* Products */
+.products{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    flex-wrap:wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://i0.wp.com/thedeveloperyt.com/wp-content/uploads/2024/12/Untitled-2024-11-16T025016.798.png?fit=500%2C277&ssl=1");
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    width:180px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    text-align:center;
+    
+}
+
+.card img{
+    width:120px;
+}
+
+.price{
+    color:green;
+    font-weight:bold;
+}
+
+button{
+    background:#00b853;
+    border:none;
+    color:white;
+    padding:8px 12px;
+    border-radius:5px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+<div class="logo">blinkit</div>
+
+<div class="search">
+<input type="text" placeholder="Search for products">
+</div>
+
+<div>Cart 🛒</div>
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSph7KkV8WkmWuc6b4DDO-mVc6-Lx8eN-CTuQ&s">
+<h3>Milk</h3>
+<p class="price">₹40</p>
+<button>Add</button>
+</div>
+
+<div class="card">
+<img src="https://img.freepik.com/premium-photo/slices-bread-white-background_1339-81363.jpg">
+<h3>Bread</h3>
+<p class="price">₹30</p>
+<button>Add</button>
+</div>
+
+<div class="card">
+<img src="https://media.istockphoto.com/id/467061077/photo/eggs-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=K6RZK8UR5hzHy4auNEKHV0EdkBVnVlyLlfBflpUXP-g=">
+<h3>Eggs</h3>
+<p class="price">₹60</p>
+<button>Add</button>
+</div>
+
+</div>
+
+</body>
+</html>
